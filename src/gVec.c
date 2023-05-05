@@ -1,4 +1,4 @@
-#include "gVec.h"
+#include "include/gVec.h"
 
 int gVecInit(gVec *vec, void **buff_ptr, size_t size, size_t block_size) {
 	if (vec == NULL || buff_ptr == NULL || size < 0) return -1;
